@@ -1,0 +1,103 @@
+header{
+    background-color: rgba(38, 32, 62, 0.8);
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: stretch;
+}
+.flex-items:nth-child(1) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    width: 25%;
+  }
+  .flex-items:nth-child(2) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    width: 50%;
+  }
+  .flex-items:nth-child(3) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    width: 25%;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+  }
+#odsaz{
+    width: 80%;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#lupa{
+    width: 15px;
+    height: 15px;
+}
+.flex-con {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+  }
+  
+  .flex-i {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+  }
+  .Menu{
+      margin: 10px;
+      color: white;
+  }
+  #Rest{
+    display: flex;
+    background-image: url('Cosmic.jpg');
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100vh;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .clanek{
+      border-radius: 5px;
+      width: 50%;
+      background-color: white;
+      -webkit-box-shadow:0 0 20px rgb(255, 255, 255); 
+      -moz-box-shadow: 0 0 20px rgb(255, 255, 255); 
+      box-shadow:0 0 20px rgb(255, 255, 255);
+  }

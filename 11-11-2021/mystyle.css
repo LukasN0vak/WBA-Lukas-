@@ -1,0 +1,32 @@
+* {
+    text-align: center;
+}
+img{
+    display: none;
+}
+
+div p {
+    color: rgb(94, 23, 23);
+}
+
+div:hover p{
+    color: coral;
+    display: block;
+}
+div:hover img{
+    display: block;
+}
+#firstl::first-line{
+    color: crimson;
+}
+
+
+p::before{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    content: "";
+    background: url("smiley.jpg") no-repeat 0 0;
+    background-size: 100%;
+}
