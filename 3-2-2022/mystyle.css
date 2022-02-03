@@ -8,13 +8,13 @@
     padding: 1vh;
     height: 20vh;
 }
-.gridchild:first-child{
+.gridchild:nth-child(1){
     grid-row-start: 1;
     grid-row-end: span 2;
     height: auto;
     
 }
-.gridchild:last-child{
+.gridchild:nth-child(7){
     grid-column-start: 2;
     grid-column-end: span 2;
 }
