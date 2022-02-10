@@ -7,7 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="mystyle.css">
 </head>
-<body>
+<body  id = "RGB">
     <div class="grid">
         <div class="gridchild">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio totam mollitia aliquid ipsum, dolor aliquam pariatur nisi deleniti, incidunt nesciunt reprehenderit consequatur debitis corporis impedit. Fuga impedit aliquam ab. Dolorem!</p>
@@ -22,5 +22,15 @@
             <p>Ex excepturi temporibus voluptatum sequi id assumenda tenetur cum veritatis quae aliquam dolorem unde, amet modi fugiat debitis? Corrupti vitae eius consequuntur laborum esse aperiam tenetur delectus magni natus labore.</p>
         </div>
     </div>
+    <script>
+    setInterval(IDK, 10);
+    function IDK(){
+    let ibek = Math.random() * 201;
+    let uu = Math.random() * 201;
+    let xas = Math.random() * 201;
+    console.log(ibek)
+    document.getElementById("RGB").style.backgroundColor = `rgb(${ibek},${uu},${xas})`;
+    }
+    </script>
 </body>
 </html>

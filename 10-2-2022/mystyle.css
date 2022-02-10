@@ -1,0 +1,33 @@
+.grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+.gridchild{
+    background-color: blue;
+}
+@media only screen and (min-width: 600px) {
+
+.grid{
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(3,1fr);
+}
+.gridchild:nth-child(1)
+{
+    grid-row-start: 1;
+    grid-row-end: span 3;
+}
+.gridchild:nth-child(2)
+{
+    grid-column-end: span 2;
+}
+.gridchild:nth-child(3)
+{
+    grid-column-start:3;
+}
+.gridchild:nth-child(4)
+{
+    grid-column-end: span 2;
+}
+
+}
