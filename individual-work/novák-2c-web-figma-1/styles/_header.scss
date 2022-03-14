@@ -1,0 +1,36 @@
+header{
+    background-color: $primary-color;
+}
+
+.header-flex{
+    height: 9vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: normal;
+}
+
+.header-flex-item{
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    align-content: center;
+    order: 0;
+    flex-basis: auto;
+    align-self: auto;
+
+}
+
+#logo{
+    margin-top: 0.5vh;
+    height: 90%;
+    margin-left: 8vw;
+}
+
+#burger{
+    margin-top: 2.5vh;
+    height: 40%;
+    margin-right: 9vw;
+}
