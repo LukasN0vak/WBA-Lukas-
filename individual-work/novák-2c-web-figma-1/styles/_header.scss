@@ -1,7 +1,6 @@
 header{
     background-color: $primary-color;
 }
-
 .header-flex{
     height: 9vh;
     display: flex;
@@ -33,4 +32,13 @@ header{
     margin-top: 2.5vh;
     height: 40%;
     margin-right: 9vw;
+}
+@media only screen and (min-width: 800px) {
+    #logo{
+        height: 14.2vh;
+    }
+    .header-flex{
+        height: 15.3vh;
+    }
+
 }

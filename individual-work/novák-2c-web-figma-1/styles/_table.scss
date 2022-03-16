@@ -17,12 +17,12 @@
     text-transform: uppercase;
     letter-spacing: 0.15em;
     font-weight: 700;
-    font-size: 2.8vh;
+    font-size: 2.8vmax;
 }
 #table-text{
     font-size: 100%; 
     font-weight: 400;
-    font-size: 1.5vh;
+    font-size: 1.5vmax;
     line-height: 16px;
     display: flex;
     align-items: center;
@@ -41,7 +41,7 @@
 .table-item{
     margin: 1%;
     justify-content: center;
-    margin-bottom: 2vh;
+    margin-bottom: 2vmax;
     display: flex;
     flex-grow: 0;
     flex-shrink: 1;

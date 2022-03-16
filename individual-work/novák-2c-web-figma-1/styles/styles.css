@@ -54,6 +54,15 @@ header {
   margin-right: 9vw;
 }
 
+@media only screen and (min-width: 800px) {
+  #logo {
+    height: 14.2vh;
+  }
+  .header-flex {
+    height: 15.3vh;
+  }
+}
+
 #table {
   margin: 5vh;
   background-color: #7C7474;
@@ -83,13 +92,13 @@ header {
   text-transform: uppercase;
   letter-spacing: 0.15em;
   font-weight: 700;
-  font-size: 2.8vh;
+  font-size: 2.8vmax;
 }
 
 #table-text {
   font-size: 100%;
   font-weight: 400;
-  font-size: 1.5vh;
+  font-size: 1.5vmax;
   line-height: 16px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -117,7 +126,7 @@ header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-bottom: 2vh;
+  margin-bottom: 2vmax;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -238,6 +247,7 @@ header {
 }
 
 .footer {
+  bottom: 0;
   width: 100vw;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -256,13 +266,14 @@ header {
       -ms-flex-direction: column;
           flex-direction: column;
   padding: 5%;
+  height: 10vh;
 }
 
 .footer-text {
   font-family: 'Lato';
   font-style: normal;
   font-weight: 500;
-  font-size: 0.9em;
+  font-size: 1.8vmax;
   line-height: 160%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -276,7 +287,7 @@ header {
 
 .practic {
   margin-top: 6vh;
-  margin-left: 10vw;
+  margin-left: 12vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -321,6 +332,58 @@ header {
 .practic-text {
   margin-left: 1.5vmax;
   font-size: 4.5vw;
+}
+
+.contacts-text {
+  font-family: 'Lato';
+  font-style: normal;
+  letter-spacing: 0.2em;
+  margin-top: 7vh;
+  font-weight: 700;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+}
+
+.contacts-grid {
+  margin-top: 3vh;
+  display: -ms-grid;
+  display: grid;
+  gap: 2.5vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.contacts-grid-child {
+  background-color: rgba(124, 116, 116, 0.3);
+  height: 4vh;
+  width: 86vw;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.contacts-grid-child:nth-child(5) {
+  background-color: rgba(124, 116, 116, 0.3);
+  height: 20vh;
+  width: 86vw;
+}
+
+.contacts-grid-text {
+  margin-top: 0.9vh;
+  margin-left: 1vh;
+  font-family: 'Lato';
+  font-style: normal;
+  letter-spacing: 0.1em;
+  font-size: 1.6vh;
+  font-weight: 500;
 }
 
 @font-face {
