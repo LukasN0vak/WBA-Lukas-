@@ -1,0 +1,61 @@
+@font-face {
+    font-family: Lato-Font;
+    src: url(Lato-Black.ttf);
+}
+header{
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    left: 0px;
+    top: 0px;
+    background: #CBC1B1;
+}
+#logo{
+
+    width: 150px;
+    height: 150px;
+
+
+    background: url(logo.png);
+}
+
+
+
+.header-flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: normal;
+    align-content: normal;
+}
+.header-flex-i {
+    padding-left: 10vw;
+    padding-right: 10vw;
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    order: 0;
+}
+.menu {
+    margin-top: 17%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: normal;
+    align-content: stretch;
+  }
+  
+  .menu-items {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    margin-left: 3vh;
+    order: 0;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+    font-family: Lato-Font;
+}
