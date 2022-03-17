@@ -1,0 +1,23 @@
+@import 'base';
+@import 'header';
+@import 'table';
+@import 'destinations';
+@import 'footer';
+@import 'practics';
+@import 'contacts';
+@font-face {
+    font-family: Lato;
+    src: url(Fonts/Lato-Black.ttf);
+}
+
+body{
+    background-color: #E5E5E5;
+}
+
+h2{
+    text-transform: uppercase;
+    font-size: 1.1em;
+    font-weight: 800;
+}
+
+

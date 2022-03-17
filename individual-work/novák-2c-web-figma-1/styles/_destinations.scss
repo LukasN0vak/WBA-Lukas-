@@ -1,0 +1,60 @@
+
+@mixin destinations{
+    font-family: 'Lato';
+    font-style: normal;
+    display: flex;
+    color: black;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    font-size: 1.3vh;
+}
+#the-rest{
+    justify-content: center;
+    text-transform: uppercase;
+    @include destinations()
+}
+#destinations-container{
+    width: 100%;
+    @include destinations();
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-size: 2.3vmin;
+    font-weight: 360;
+    
+}
+.destinations-text{
+    padding-top: 3vh;
+    padding-left: 1vh;
+}
+  
+.destinations-item{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: normal;
+    align-content: normal;
+    margin: 4vh;
+    width: 80vw;
+    margin-bottom: 0vh;
+    margin-top: 3vh;
+}
+
+.destinations-info{
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    width: 200vw;
+
+  }
+.destinations-img{
+    width: 100%;
+    height: 100%;
+}

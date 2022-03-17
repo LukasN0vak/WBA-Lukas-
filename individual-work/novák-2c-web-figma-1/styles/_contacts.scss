@@ -1,0 +1,38 @@
+.contacts-text{
+    font-family: 'Lato';
+    font-style: normal;
+    letter-spacing: 0.2em;
+    margin-top: 7vh;
+    font-weight: 700;
+    grid-template-columns: 1fr;
+}
+.contacts-grid{
+    margin-top: 3vh;
+    display: grid;
+    gap: 2.5vh;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.contacts-grid-child{
+    background-color: rgba(124, 116, 116, 0.3);
+    height: 4vh;
+    width: 86vw;
+    align-self: center;
+    align-content: center;
+}
+
+.contacts-grid-child:nth-child(5){
+    background-color: rgba(124, 116, 116, 0.3);
+    height: 20vh;
+    width: 86vw;
+}
+.contacts-grid-text{
+    margin-top: 0.9vh;
+    margin-left: 1vh;
+    font-family: 'Lato';
+    font-style: normal;
+    letter-spacing: 0.1em;
+    font-size: 1.6vh;
+    font-weight: 500;
+}
